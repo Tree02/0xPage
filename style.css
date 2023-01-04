@@ -1,0 +1,106 @@
+*{
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Prompt', sans-serif;
+}
+
+body{
+    background-color: #e4e7e8;
+}
+
+article{
+    height: 100%;
+    padding: 10px 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 20px;
+    background-color: rgb(180, 180, 180);
+}
+
+/* profil */
+
+.perfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto{
+    height: 230px;
+    width: 220px;
+    border-radius: 4px;
+}
+
+.p-perfil{
+    font-size: 14px;
+    width: 450px;
+    padding: 0 25px 0 40px;    
+    margin: 20px 20px;
+}
+
+.skills{
+    font-weight: 700;
+}
+/*end profil*/
+
+
+/*wrap cards*/
+.mi-project{
+    margin: 40px 0;
+    font-size: 40px;
+}
+
+.section-cards{
+    display: flex;
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 50px rgb(88, 88, 88);
+}
+/*card*/
+.card{
+    text-align: center;
+    margin: 0 20px;
+}
+
+.card .photo{
+    margin: 10px 40px;
+    width: 160px;
+    height: 200px;
+}
+.card .title{
+    font-size: 20px;
+}
+/*close card*/
+/*end wrap cards*/
+
+
+/*description*/
+.section-description{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.section-description .paraph{
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 0;
+    width: 60%;
+}
+/*end description*/
+
+
+/*footer*/
+footer .parrafo-footer{
+    color: black;
+    margin: 0 0 0 16px;
+}
