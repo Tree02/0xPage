@@ -1,0 +1,41 @@
+{
+    "title":{
+        "name": "Welcome!"
+    },
+    "header": {
+        "descriptionT": "Hi, i'm Ezequiel!",
+        "descriptionD": "I like the <b>web development</b> and particulary <b>backend section</b>, that is my stack of technologies:"
+    },
+    "sectDev": {
+        "titleAboutMe": "About Me",
+        "descriptionAboutMe": "I'm 21 years old, and i like technologies.<br>The impact that it generates in the world is paramount, i wold love to be part of it.<br>I am always studying and working.<br>I work better when i'm not under pressure, time management is essential for me.",
+        "titleExp": "Work Experiences",
+        "descriptionTitleExp": "Gergal S.A.",
+        "descriptionDescriptionExp": "E-Commerce, Administrative Tasks, Technology Application, Sheets , Mailing",
+        "descriptionTitleExp1": "Librería",
+        "descriptionDescriptionExp1": "E-Commerce, Social Networks, Proveedores, Venta Minorista",
+        "titleEdu": "Education",
+        "descriptionTitleEdu": "Instituto Maipú",
+        "descriptionDescriptionEdu": "Economic sciences and Business Administration.",
+        "descriptionTitleEdu1": "Course - Python Beginner",
+        "descriptionDescriptionEdu1": "Basis (condicionals, loops, variables, data types, functions, files, work methods)",
+        "descriptionTitleEdu2": "Course - Python Developer",
+        "descriptionDescriptionEdu2": "Frameworks (numpy, matplotlib, flask), JSON and ETL works, SQLORM, API REST, Web Apps, Objects Programming",
+        "titlePro": "Projects"
+    },
+    "data": {
+        "titleSkills": "Skills",
+        "skill1": "Excel (High Level)",
+        "skill2": "Microsoft Office",
+        "skill3": "Development databases ORM and Standar Databases",
+        "skill4": "Google package",
+        "skill5": "Object Programming",
+        "titleInfo": "Information",
+        "info1": "+54 011-5591-3662",
+        "info2": "Spanish (native)",
+        "info3": "English (mid lavel)",
+        "info4": "Argentine",
+        "info5": "11/18/2001",
+        "titleContact": "Contact me!"
+    }
+}

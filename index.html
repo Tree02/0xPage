@@ -8,16 +8,23 @@
     <link href="normalize.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <script src="/src/script.js"></script>
     <script src="https://kit.fontawesome.com/8fd85c4179.js" crossorigin="anonymous"></script>
-    <title>Welcome!</title>
+    <title data-section="title" data-value="name">Bienvenido!</title>
 </head>
 <body>
+    <div id="flags" data-language="en">
+        <div class="flags_item" data-language="es">
+            <img class="languages" src="languages/spain.png">
+        </div>
+        <div class="flags_item" data-language="en">
+            <img class="languages" src="languages/united-kingdom.png">
+        </div>
+    </div>
     <div class="encabezado">
         <img class="yo" src="img/Screenshot_20221130-141140-642.jpg" alt="yo">
         <div class="description">
-            <h1>Hola soy Ezequiel!</h1>
-            <p>Me gusta el <b>desarrollo web </b>en general, y el <b>backend</b> en particular, este es mi stack de tecnologías:<p>
+            <h1 data-section="header" data-value="descriptionT">Hola soy Ezequiel!</h1>
+            <p data-section="header" data-value="descriptionD">Me gusta el <b>desarrollo web</b> y particularmente el <b>backend</b> este es mi stack de tecnologías:<p>
             <i class="fa-brands fa-html5"></i>
             <i class="fa-brands fa-css3-alt"></i>
             <i class="fa-brands fa-square-js"></i>
@@ -31,54 +38,49 @@
     <div class="sect">
         <div class="body2">
             <div class="expectativeLife">
-                <h1>Acerca de mi</h1>
+                <h1 data-section="sectDev" data-value="titleAboutMe">Acerca de mi</h1>
                 <div class="expect">
-                    <p>Tengo 21 años, y me gusta la tecnología.<br>El impacto que esta genera en el mundo es primordial y me encantaría formar parte aportando con mi conocimiento.<br>Tengo iniciativa emprendedora, siempre trato de estar aprendiendo y trabajando.<br>A consideración personal, suelo trabajar mejor cuando no me están controlando todo el tiempo, es decir, para mi administrar el tiempo que uno emplea en trabajar y en ocio es fundamental.</p>
+                    <p data-section="sectDev" data-value="descriptionAboutMe">Tengo 21 años, y me gusta la tecnología.<br>El impacto que esta genera en el mundo es primordial y me encantaría formar parte aportando con mi conocimiento.<br>Tengo iniciativa emprendedora, siempre trato de estar aprendiendo y trabajando.<br>A consideración personal, suelo trabajar mejor cuando no me están controlando todo el tiempo, es decir, para mi administrar el tiempo que uno emplea en trabajar y en ocio es fundamental.</p>
                 </div>
             </div>
             <div class="expLab">
-                <h1>Experiencia Laboral</h1>
+                <h1 data-section="sectDev" data-value="titleExp">Experiencia Laboral</h1>
                 <div class="exp">
                     <div class="title">
-                        <b>Gergal S.A.</b>&nbsp<p class="fecha">(09/2021-11/2022)</p></label>
+                        <b data-section="sectDev" data-value="descriptionTitleExp">Gergal S.A.</b>&nbsp<p class="fecha">(09/2021-11/2022)</p></label>
                     </div>
-                    <p>ECommerce - Administrativo - Aplicación Tecnológica - Cálculo de Horas extra - Formulación de Planillas de Excel - Mailing</p>
+                    <p data-section="sectDev" data-value="descriptionDescriptionExp">ECommerce - Administrativo - Aplicación Tecnológica - Cálculo de Horas extra - Formulación de Planillas de Excel - Mailing</p>
                 </div>
                 <div class="exp">
                     <div class="title">
-                        <b>Libreria</b>&nbsp<p class="fecha">(02/2020-09/2021)</p></label>
+                        <b data-section="sectDev" data-value="descriptionTitleExp1">Libreria</b>&nbsp<p class="fecha">(02/2020-09/2021)</p></label>
                     </div>
-                    <p>ECommerce - Redes Sociales - Proveedores - Venta Minorista</p>
+                    <p data-section="sectDev" data-value="descriptionDescriptionExp1">ECommerce - Redes Sociales - Proveedores - Venta Minorista</p>
                 </div>
             </div>
             <div class="expLab">
-                <h1>Educación</h1>
+                <h1 data-section="sectDev" data-value="titleEdu">Educación</h1>
                 <div class="exp">
                     <div class="title">
-                        <b>República del Panamá</b>&nbsp<p class="fecha">Primaria - (2007-2014)</p></label>
+                        <b data-section="sectDev" data-value="descriptionTitleEdu">Instituto Maipú</b>&nbsp<p class="fecha">Secundaria - (2018-2019)</p></label>
                     </div>
+                    <p data-section="sectDev" data-value="descriptionDescriptionEdu">Espacializada en economía y administración de empresas.</p>
                 </div>
                 <div class="exp">
                     <div class="title">
-                        <b>Instituto Maipú</b>&nbsp<p class="fecha">Secundaria - (2018-2019)</p></label>
+                        <b data-section="sectDev" data-value="descriptionTitleEdu1">Curso - Python Inicial</b>&nbsp<p class="fecha">Basics Skills</p></label>
                     </div>
-                    <p>Espacializada en economía y administración de empresas.</p>
+                    <p data-section="sectDev" data-value="descriptionDescriptionEdu1">Fundamentos básicos generales (condicionales, bucles, variables, tipos de datos, funciones, archivos, metodologías de trabajo)</p>
                 </div>
                 <div class="exp">
                     <div class="title">
-                        <b>Curso - Python Inicial</b>&nbsp<p class="fecha">Basics Skills</p></label>
+                        <b data-section="sectDev" data-value="descriptionTitleEdu2">Curso - Python Desarrollador</b>&nbsp<p class="fecha">Desarrollo backend</p></label>
                     </div>
-                    <p>Fundamentos básicos generales (condicionales, bucles, variables, tipos de datos, funciones, archivos, metodologías de trabajo)</p>
-                </div>
-                <div class="exp">
-                    <div class="title">
-                        <b>Curso - Python Desarrollador</b>&nbsp<p class="fecha">Desarrollo backend</p></label>
-                    </div>
-                    <p>Frameworks (numpy, matplotlib, flask), trabajos con JSON y ETL, SQLORM, API REST, Web Apps, Object Programming</p>
+                    <p data-section="sectDev" data-value="descriptionDescriptionEdu2">Frameworks (numpy, matplotlib, flask), trabajos con JSON y ETL, SQLORM, API REST, Web Apps, Object Programming</p>
                 </div>
             </div>
             <div class="projectsPropios">
-                <h1>Projects</h1>
+                <h1 data-section="sectDev" data-value="titlePro">Proyectos</h1>
                 <div class="wrap-proj">
                     <a class="project" href="https://github.com/Tree02/0x1" id="1">
                         <img src="img/Screenshot_20221130-141140-642.jpg" alt="p1">
@@ -93,27 +95,29 @@
             </div>
         </div>
         <div class="data">
-            <label><b>Skills</b></label>
-            <p class="datax">Excel (avanzado)</p>
-            <p class="datax">Microsoft Office</p>
-            <p class="datax">Manejo de Base de datos</p>
-            <p class="datax">Google Package</p><br>
+            <label><b data-section="data" data-value="titleSkills">Habilidades</b></label>
+            <p class="datax" data-section="data" data-value="skill1">Excel (avanzado)</p>
+            <p class="datax" data-section="data" data-value="skill2">Microsoft Office</p>
+            <p class="datax" data-section="data" data-value="skill3">Manejo de Base de datos relacional y no relacional</p>
+            <p class="datax" data-section="data" data-value="skill4">Google Package</p>
+            <p class="datax" data-section="data" data-value="skill5">Programación orientada a objetos</p><br>
             
-            <label><b>Info</b></label>
-            <p class="datax">+54 011-5591-3662</p>
-            <p class="datax">Español (nativo)</p>
-            <p class="datax">Inglés (nivel medio)</p>
-            <p class="datax">Argentino</p>
-            <p class="datax">18/11/2001</p><br>
+            <label><b data-section="data" data-value="titleInfo">Información</b></label>
+            <p class="datax" data-section="data" data-value="info1">+54 011-5591-3662</p>
+            <p class="datax" data-section="data" data-value="info2">Español (nativo)</p>
+            <p class="datax" data-section="data" data-value="info3">Inglés (nivel medio)</p>
+            <p class="datax" data-section="data" data-value="info4">Argentino</p>
+            <p class="datax" data-section="data" data-value="info5">18/11/2001</p><br>
 
-            <label><b>Contact me</b></label>
+            <label><b data-section="data" data-value="titleContact">Contáctame!</b></label>
             <a class="nets" href="mailto:ezequiellirala@gmail.com?Subject=Quiero%20contactactarme"><i class="fa-solid fa-envelope"></i>&nbsp<p>ezequiellirala@gmail.com</p></a>
             <a class="nets" href="https://twitter.com/lraIaa"><i class="fa-brands fa-square-twitter"></i>&nbsp<p>@Irala</p></a>
             <a class="nets" href="https://www.instagram.com/eze.irala/"><i class="fa-brands fa-instagram"></i>&nbsp<p>@eze.irala</p></a>
             <a class="nets" href="https://www.linkedin.com/in/ezequiel-irala/"><i class="fa-brands fa-linkedin"></i>&nbsp<p>Ezequiel Irala</p></a>
-            <a class="nets" href="https://t.me/Ezeirala"><i class="fa-brands fa-telegram"></i>&nbsp<p>Ezequiel Irala</p></a>
+            <a class="nets" href="https://t.me/Ezeirala"><i class="fa-brands fa-telegram"></i>&nbsp<p>Eze Irala</p></a>
             <a class="nets" href="https://github.com/Tree02"><i class="fa-brands fa-square-github"></i>&nbsp<p>Tree02</p></a>
         </div>
     </div>
+    <script type='text/javascript' src="script.js"></script>
 </body>
 </html>

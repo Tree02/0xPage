@@ -1,0 +1,41 @@
+{
+    "title":{
+        "name": "Bienvenido!"
+    },
+    "header": {
+        "descriptionT": "Hola soy Ezequiel!",
+        "descriptionD": "Me gusta el <b>desarrollo web</b> y particularmente el <b>backend</b>, este es mi stack de tecnologías:"
+    },
+    "sectDev": {
+        "titleAboutMe": "Acerca de Mi",
+        "descriptionAboutMe": "Tengo 21 años, y me gusta la tecnología.<br>El impacto que esta genera en el mundo es primordial y me encantaría formar parte aportando con mi conocimiento.<br>Tengo iniciativa emprendedora, siempre trato de estar aprendiendo y trabajando.<br>A consideración personal, suelo trabajar mejor cuando no me están controlando todo el tiempo, es decir, para mi administrar el tiempo que uno emplea en trabajar y en ocio es fundamental.",
+        "titleExp": "Experiencia Laboral",
+        "descriptionTitleExp": "Gergal S.A.",
+        "descriptionDescriptionExp": "Comercio Electrónico, Tareas administrativas, Aplicación tecnológica, Cálculos de Horas extra, Formulación de plantillas de excel, Mailing",
+        "descriptionTitleExp1": "Librería",
+        "descriptionDescriptionExp1": "Comercio electrónico, Redes Sociales, Proveedores, Venta Minorista",
+        "titleEdu": "Educación",
+        "descriptionTitleEdu": "Instituto Maipú",
+        "descriptionDescriptionEdu": "Especializada en economía y administración de empresas.",
+        "descriptionTitleEdu1": "Curso - Python Inicial",
+        "descriptionDescriptionEdu1": "Fundamentos básico generales (condicionales, bucles, variables, tipos de datos, funciones, archivos, metodologías de trabajo)",
+        "descriptionTitleEdu2": "Curso - Python Desarrollador",
+        "descriptionDescriptionEdu2": "Librerías (numpy, matplotlib, flask), trabajos con JSON y ETL, SQLORM, API REST, Web Apps, Programación orientada a objetos",
+        "titlePro": "Proyectos"
+    },
+    "data": {
+        "titleSkills": "Habilidades",
+        "skill1": "Excel (Avanzado)",
+        "skill2": "Microsoft Office",
+        "skill3": "Manejo de base de datos standar y ORM",
+        "skill4": "Paquete de Google",
+        "skill5": "Programación orientada a objetos",
+        "titleInfo": "Información",
+        "info1": "+54 011-5591-3662",
+        "info2": "Español (nativo)",
+        "info3": "Inglés (nivel medio)",
+        "info4": "Argentino",
+        "info5": "18/11/2001",
+        "titleContact": "Contáctame!"
+    }
+}
