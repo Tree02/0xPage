@@ -155,6 +155,7 @@ p {
 }
 
 .projectsPropios .wrap-proj{
+    overflow: auto;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -178,6 +179,7 @@ p {
 .wrap-proj .project{
     /*margin: var(--separate);
     border-radius: var(--boders);*/
+    border: #3f3f3f;
     margin: 1.5rem;
     border-radius: 22px;
     width: 8rem;
